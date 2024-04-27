@@ -6,8 +6,23 @@
 }
 .c-item {
     height: 40rem;
-}
+} */
 .c-img {
     width: 100%;
     object-fit: fill;
 }
+/* .c-img-1 {
+    background-image: url(/img/IMG_2451_1.JPG);
+}
+.c-img-2 {
+    background-image: url(/img/IMG_2453_1.jpg);
+}
+.c-img-3 {
+    background-image: url(/img/IMG_2459_1.JPG);
+}
+.c-img {
+    width: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
