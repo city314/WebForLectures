@@ -15,6 +15,9 @@
 .carousel .carousel-inner {
     aspect-ratio: 16/8;
 }
+.avatar {
+    width: 300px;
+}
 .vid {
     width: 500px;
 }
