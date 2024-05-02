@@ -8,9 +8,12 @@
 
 /* SetColor */
 :root {
+    --colBlack: #0d0d0d;
+    --colDarkGray: #3d535f;
+    --colGray: #eff0f3;
+    --colWhite: #fffffe;
     --colOrange: #ff8e3c;
     --colRed: #d9376e;
-    --colGray: #eff0f3;
 }
 
 /* Mainscreen */
@@ -28,7 +31,7 @@ body {
 .mainscreen {
     width: 100%;
     min-height: 100vh;
-    background-color: #f3f5f8;
+    background-color: var(--colWhite);
 }
 
 .wrapper {
@@ -93,7 +96,7 @@ body {
     position: relative;
     font-size: 35px;
     letter-spacing: 5px;
-    color: #3d535f;
+    color: var(--colDarkGray);
 }
 
 .topline::after {
@@ -109,7 +112,7 @@ body {
     display: block;
     font-size: 3em;
     font-weight: 900;
-    color: #3d535f;
+    color: var(--colDarkGray);
     letter-spacing: 2px;
 }
 
@@ -122,7 +125,7 @@ body {
     display: block;
     width: 90%;
     font-size: 1.2em;
-    color: #3d535f;
+    color: var(--colDarkGray);
 }
 
 .btns {
@@ -137,8 +140,8 @@ body {
     cursor: pointer;
     font-size: 25px;
     font-weight: 400;
-    color: #fff;
-    background-color: #3d535f;
+    color: var(--colWhite);
+    background-color: var(--colDarkGray);
     padding: 8px 14px;
     margin: 20px 5px;
     letter-spacing: 2px;
