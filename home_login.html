@@ -108,7 +108,7 @@
             <div class="wrapper">
                 <div class="colums colums0">
                     <span class="topline">Xin chào</span>
-                    <h1>Tôi là <span class="multiText">Dzoãn Xuân Thanh</span></h1>
+                    <h1>Tôi là <span class="multiText"></span></h1>
                     <p>
                         Thạc sĩ Khoa học Máy tính <br>
                         Email: dzoanxuanthanh@tdt.edu.vn
@@ -140,6 +140,17 @@
         </div>
         <!-- Footer -->
     </div>
+    <!-- Link js of typing word that made animation for title "Dzoan Xuan Thanh"-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["Dzoãn Xuân Thanh", "Giảng viên TDTU"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500,
+        })
+    </script>
 </body>
 
 </html>

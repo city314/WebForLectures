@@ -6,6 +6,13 @@
     }
 }
 
+/* SetColor */
+:root {
+    --colOrange: #ff8e3c;
+    --colRed: #d9376e;
+    --colGray: #eff0f3;
+}
+
 /* Mainscreen */
 * {
     margin: 0;
@@ -15,7 +22,7 @@
 }
 
 body {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .mainscreen {
@@ -34,8 +41,51 @@ body {
     overflow: hidden;
 }
 
+.wrapper::before {
+    position: absolute;
+    content: '';
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    left: -12%;
+    top: 40%;
+    background: linear-gradient(45deg, var(--colRed), var(--colOrange));
+    animation: object1 6s linear infinite;
+}
+
+.wrapper::after {
+    position: absolute;
+    content: '';
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    left: 35%;
+    top: 12%;
+    background: linear-gradient(45deg, var(--colRed), var(--colOrange));
+    animation: object2 6s linear infinite;
+}
+
+@keyframes object1 {
+    50% {
+        left: -13%;
+        top: 41%;
+    }
+}
+
+@keyframes object2 {
+    50% {
+        left: 35%;
+        top: 10%;
+    }
+}
+
 .colums {
     width: 50%;
+}
+
+.colums0 {
+    width: 60%;
+    z-index: 5;
 }
 
 .topline {
@@ -52,7 +102,7 @@ body {
     height: 4px;
     width: 45px;
     bottom: 10px;
-    background-color: #7f00ff;
+    background-color: var(--colOrange);
 }
 
 .mainscreen h1 {
@@ -64,7 +114,7 @@ body {
 }
 
 .multiText {
-    color: #7f00ff;
+    color: var(--colOrange);
     text-transform: capitalize;
 }
 
@@ -97,7 +147,7 @@ body {
 }
 
 .btns button:hover {
-    background-color: #7f00ff;
+    background-color: var(--colOrange);
 }
 
 .imgbox {
