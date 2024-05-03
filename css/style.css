@@ -15,6 +15,13 @@
     --colOrange: #ff8e3c;
     --colRed: #d9376e;
 }
+.lecture.page .title{
+    margin-top: 100px;
+}
+/* Paragrah for introduce lectures */
+.para_introduce_lecture {
+    font-size: 16px;
+}
 
 /* Mainscreen */
 * {
