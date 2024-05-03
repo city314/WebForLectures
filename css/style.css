@@ -15,8 +15,13 @@
     --colOrange: #ff8e3c;
     --colRed: #d9376e;
 }
+/* Lecture Page */
 .lecture.page .title{
     margin-top: 100px;
+}
+.lecture.page .card-img-top {
+    height: 150px;
+    width: 305px;
 }
 /* Paragrah for introduce lectures */
 .para_introduce_lecture {
